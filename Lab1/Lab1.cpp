@@ -37,4 +37,21 @@ int main()
     }
     cout << "\nThe Highest is ==> " << highest << endl;
     int lowest = a;
+    if (b < lowest)
+    {
+        lowest = b;
+    }
+    if (c < lowest)
+    {
+        lowest = c;
+    }
+    if (d < lowest)
+    {
+        lowest = d;
+    }
+    if (e < lowest)
+    {
+        lowest = e;
+    }
+    cout << "\nThe Lowest is ==> " << lowest << endl;
 }
